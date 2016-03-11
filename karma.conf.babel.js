@@ -48,12 +48,12 @@ export default config => {
 
     customLaunchers: {
       ChromeCi: {
-        base: 'Chrome',
+        base: 'Firefox',
         flags: ['--no-sandbox'],
       },
     },
 
-    browsers: isCi ? [env.BROWSER] : ['Chrome'],
+    browsers: isCi ? [env.BROWSER] : ['Firefox'],
 
     singleRun: isCi,
   });
