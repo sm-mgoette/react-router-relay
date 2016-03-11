@@ -30,7 +30,7 @@
   "dependencies": {
     "babel-runtime": "5.x",
     "invariant": "^2.2.0",
-    "react-static-container": "^1.0.0",
+    "react-static-container": "^1.0.0"
   },
   "peerDependencies": {
     "react": ">=0.14.0",
